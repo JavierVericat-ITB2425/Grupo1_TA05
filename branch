@@ -1,4 +1,4 @@
-git checkout -b Luka-UklebaBranch
+
 
 # Zendesk (Suport tècnic)
 
@@ -17,3 +17,5 @@ Tot i que l'impacte ambiental és relativament baix, l'ús de la IA a Zendesk en
 - Implementar algorismes més eficients en termes de processament de dades i emmagatzematge, cosa que redueix la demanda de maquinari.
 - Incentivar l'ús de plataformes d'IA al núvol que operin amb pràctiques ecològiques.
 
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
