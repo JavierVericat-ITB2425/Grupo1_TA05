@@ -1,6 +1,3 @@
-Aquí tens una versió més extensa del manual, ampliant el contingut de cada secció per fer-lo més complet i informatiu:  
-
-```markdown
 # Manual sobre l'ús de la IA en Xarxes i Ciberseguretat
 
 ## Contingut
