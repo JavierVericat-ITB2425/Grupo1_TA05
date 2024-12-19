@@ -1,0 +1,238 @@
+/* Estils bàsics per a totes les pàgines */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+color: white;
+    background-image: url('Imatges/fondo2.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la página */
+    background-repeat: no-repeat; 
+    text-align: center;
+
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+}
+
+footer {
+  text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.margint {
+    margin-left: -34px;
+}
+
+.asideflex {
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 19px;
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+.li2 {
+    float: none;
+display: inline-flex;
+
+}
+
+a {
+    display: block;
+    padding: 8px;
+   
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+h1 {
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+ font-size: 25px;
+ padding-top: 20px;
+}
+
+
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.center {
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+.flexcen {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+height: 75px;
+width: 75px;
+}
+
+.img1 {
+    height: 300px; 
+    width: 300px;
+}
+
+article {
+  padding-left: 100px;
+  padding-right: 100px;  
+}
+
+.display {
+    display: flex;
+
+}
+
+.columna {
+    
+    flex-direction: column;
+
+
+}
+
+
+main {
+    text-align: center;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 150px;
+}
+
+main aside {
+margin-top: -20px;
+    position: absolute; /* O 'fixed' si quieres que no se mueva al hacer scroll */
+    right: 125px; /* Lo pega al borde derecho de la página */
+     /* Alineado en la parte superior */
+
+     justify-content: center;
+     text-align: center;
+     margin-right: -15px;
+}
+
+.imgaside {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.margleft {
+margin-left: 5px;
+}
+
+.boton-negro {
+    background-color: #000; /* Color de fondo negro */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espacio interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a "pointer" */
+    transition: background-color 0.3s ease; /* Animación para el cambio de color */
+}
+
+.boton-negro:hover {
+    background-color: #333; /* Cambia a gris oscuro al pasar el cursor */
+}
+
+.iconos {
+
+width: 50px;
+height: 50px;
+}
+
+.form-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 9px;
+    
+}
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form-container form label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-container form input {
+    width: calc(100% - 20px); /* Reducido para no llegar hasta el borde */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.form-container button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+   
+
+       
+    
