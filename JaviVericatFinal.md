@@ -1,6 +1,3 @@
-
-
-```markdown
 # Manual sobre l'ús de la IA en Xarxes i Ciberseguretat
 
 ## Contingut
